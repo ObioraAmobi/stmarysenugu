@@ -11,7 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  /*#007bff*/
+  --blue: #4169e1;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -45,6 +46,11 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+
+.new-bg-primary {
+background-color: #4169e1;
 }
 
 html {
@@ -159,7 +165,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #4169e1;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9364,7 +9370,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #4169e1 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9605,7 +9611,8 @@ hr.light {
   font-size: 0.9rem;
   margin-left: 5%;
   padding: 15px;
-  color: #007bff;
+  /*color: #007bff;*/
+  color: #4169e1;
   background-color: #fff;
   border-radius: 25px;
 
@@ -9620,11 +9627,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #007bff;
+  color: #4169e1;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #007bff !important;
+  color: #4169e1 !important;
 }
 
 @media (min-width: 992px) {
@@ -9656,13 +9663,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #007bff;
+    color: #4169e1;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #007bff;
+    color: #4169e1;
   }
 }
 
